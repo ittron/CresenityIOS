@@ -23,9 +23,9 @@
 		77204DC2ADD4A00E9499D3D0AA67A42D /* Pods-CresenityIOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B78200AE8875C73FDC3F04E1A82AB9 /* Pods-CresenityIOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		791C03EFFF06649DA66FAF30BC35CD16 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8508685F4B3DFD4E93B29948FA0ACF83 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8FA40D7A2DF1B1C0EF67DA7748B0DFBB /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B040BB77CD8A43B7CB74128F824EBBD /* ReplaceMe.swift */; };
 		90D5505FCBDED25A5732CF1CF3CF5BE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		929188AFEF467CF1FDD25C2BCDB6BFE9 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
+		9809801322AE647300EA2E66 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9809801222AE647300EA2E66 /* Helper.swift */; };
 		AB8A64DEACDDC74D67BD635B2D02627F /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
 		BE1A50E1C2AAD0BA5A6CCA2AB34B32F2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
 		BE1CC07148196181546C119716D4376C /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -90,7 +90,6 @@
 		72E9F9696561F47120A0C8C1F6FBCAC5 /* Pods-CresenityIOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CresenityIOS_Example-umbrella.h"; sourceTree = "<group>"; };
 		746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		74A93FECF51EB1116C40557E27D2A7F2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		7B040BB77CD8A43B7CB74128F824EBBD /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CresenityIOS/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
@@ -98,6 +97,7 @@
 		8DB14ECE8A83BE65B8A4C54D947FF429 /* Pods-CresenityIOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CresenityIOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		923EDDD58796BD6F9CCA9F5859B30304 /* Pods-CresenityIOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CresenityIOS_Example.modulemap"; sourceTree = "<group>"; };
+		9809801222AE647300EA2E66 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
@@ -279,6 +279,7 @@
 			isa = PBXGroup;
 			children = (
 				A48B66D47D1175BAFF9E488973F6BE13 /* CresenityIOS */,
+				9809801222AE647300EA2E66 /* Helper.swift */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -286,7 +287,6 @@
 		A48B66D47D1175BAFF9E488973F6BE13 /* CresenityIOS */ = {
 			isa = PBXGroup;
 			children = (
-				7B040BB77CD8A43B7CB74128F824EBBD /* ReplaceMe.swift */,
 				1FB844A9C00967C8B2462D0AE67A0A60 /* Pod */,
 				D3C399BA1E5B177B54C22AC209EE3877 /* Support Files */,
 			);
@@ -481,6 +481,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					1F3E4B9ACEE34D7275FB8E69739F8B0D = {
+						LastSwiftMigration = 1020;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -539,7 +544,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C21625F0FD638FC3E2876C476ECE192A /* CresenityIOS-dummy.m in Sources */,
-				8FA40D7A2DF1B1C0EF67DA7748B0DFBB /* ReplaceMe.swift in Sources */,
+				9809801322AE647300EA2E66 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -603,6 +608,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 64C84094969B3B3A9E014BF90B26EA56 /* CresenityIOS.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -669,6 +675,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 64C84094969B3B3A9E014BF90B26EA56 /* CresenityIOS.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -689,6 +696,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
