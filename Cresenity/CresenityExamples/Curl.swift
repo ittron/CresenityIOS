@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+class Curl {
+    init() {
+    print("curl init")
+    }
+}

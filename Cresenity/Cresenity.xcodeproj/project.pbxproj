@@ -10,6 +10,7 @@
 		98097FFD22AE32C300EA2E66 /* Cresenity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98097FF322AE32C300EA2E66 /* Cresenity.framework */; };
 		9809800222AE32C300EA2E66 /* CresenityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9809800122AE32C300EA2E66 /* CresenityTests.swift */; };
 		9809800422AE32C300EA2E66 /* Cresenity.h in Headers */ = {isa = PBXBuildFile; fileRef = 98097FF622AE32C300EA2E66 /* Cresenity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9809800F22AE348B00EA2E66 /* Curl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9809800E22AE348B00EA2E66 /* Curl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		98097FFC22AE32C300EA2E66 /* CresenityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CresenityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9809800122AE32C300EA2E66 /* CresenityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CresenityTests.swift; sourceTree = "<group>"; };
 		9809800322AE32C300EA2E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9809800E22AE348B00EA2E66 /* Curl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		98097FE922AE32C300EA2E66 = {
 			isa = PBXGroup;
 			children = (
+				9809800D22AE344000EA2E66 /* CresenityExamples */,
 				98097FF522AE32C300EA2E66 /* Cresenity */,
 				9809800022AE32C300EA2E66 /* CresenityTests */,
 				98097FF422AE32C300EA2E66 /* Products */,
@@ -84,6 +87,14 @@
 				9809800322AE32C300EA2E66 /* Info.plist */,
 			);
 			path = CresenityTests;
+			sourceTree = "<group>";
+		};
+		9809800D22AE344000EA2E66 /* CresenityExamples */ = {
+			isa = PBXGroup;
+			children = (
+				9809800E22AE348B00EA2E66 /* Curl.swift */,
+			);
+			path = CresenityExamples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +159,7 @@
 				TargetAttributes = {
 					98097FF222AE32C300EA2E66 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					98097FFB22AE32C300EA2E66 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -194,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9809800F22AE348B00EA2E66 /* Curl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +354,7 @@
 		9809800822AE32C300EA2E66 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -358,6 +372,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ittron.Cresenity;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +381,7 @@
 		9809800922AE32C300EA2E66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -391,6 +407,7 @@
 		9809800B22AE32C300EA2E66 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M72YU29Z32;
 				INFOPLIST_FILE = CresenityTests/Info.plist;
@@ -409,6 +426,7 @@
 		9809800C22AE32C300EA2E66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M72YU29Z32;
 				INFOPLIST_FILE = CresenityTests/Info.plist;
