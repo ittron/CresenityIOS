@@ -1,6 +1,0 @@
-framework module CresenityIOS {
-  umbrella header "CresenityIOS-umbrella.h"
-
-  export *
-  module * { export * }
-}
