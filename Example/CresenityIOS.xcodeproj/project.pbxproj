@@ -41,12 +41,12 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		A58D04449B492E09EF6E6EFF /* Pods-CresenityIOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CresenityIOS_Tests.release.xcconfig"; path = "Target Support Files/Pods-CresenityIOS_Tests/Pods-CresenityIOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AD9E77D2CCD364925C5D8E5F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AD9E77D2CCD364925C5D8E5F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B4E086604F724F574036BB31 /* Pods-CresenityIOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CresenityIOS_Example.release.xcconfig"; path = "Target Support Files/Pods-CresenityIOS_Example/Pods-CresenityIOS_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C8874DAF27DA49D7DC0639F3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C8874DAF27DA49D7DC0639F3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CF844AD2883F6DC9F4D38CA0 /* Pods_CresenityIOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CresenityIOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C3695F3026CD677ACB1806 /* Pods_CresenityIOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CresenityIOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3A80FD162ED286A7ADAF253 /* CresenityIOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CresenityIOS.podspec; path = ../CresenityIOS.podspec; sourceTree = "<group>"; };
+		E3A80FD162ED286A7ADAF253 /* CresenityIOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CresenityIOS.podspec; path = ../CresenityIOS.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				1010A9CBC60EC0C7DD573208 /* Pods-CresenityIOS_Tests.debug.xcconfig */,
 				A58D04449B492E09EF6E6EFF /* Pods-CresenityIOS_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -503,7 +503,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -518,7 +518,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

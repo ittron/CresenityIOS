@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/vicky/CresenityIOS'
+  s.homepage         = 'https://github.com/ittron/CresenityIOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'vicky' => 'vicky20and13@gmail.com' }
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'CresenityIOS/Classes/**/*'
+  s.source_files = 'CresenityIOS/Classes/*.swift'
   
   # s.resource_bundles = {
   #   'CresenityIOS' => ['CresenityIOS/Assets/*.png']
