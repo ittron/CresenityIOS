@@ -25,7 +25,7 @@
 		8508685F4B3DFD4E93B29948FA0ACF83 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90D5505FCBDED25A5732CF1CF3CF5BE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		929188AFEF467CF1FDD25C2BCDB6BFE9 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
-		9809801322AE647300EA2E66 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9809801222AE647300EA2E66 /* Helper.swift */; };
+		9809801722AE689400EA2E66 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9809801622AE689400EA2E66 /* Helper.swift */; };
 		AB8A64DEACDDC74D67BD635B2D02627F /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
 		BE1A50E1C2AAD0BA5A6CCA2AB34B32F2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
 		BE1CC07148196181546C119716D4376C /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -97,7 +97,7 @@
 		8DB14ECE8A83BE65B8A4C54D947FF429 /* Pods-CresenityIOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CresenityIOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		923EDDD58796BD6F9CCA9F5859B30304 /* Pods-CresenityIOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CresenityIOS_Example.modulemap"; sourceTree = "<group>"; };
-		9809801222AE647300EA2E66 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		9809801622AE689400EA2E66 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = CresenityIOS/Classes/Helper.swift; sourceTree = "<group>"; };
 		98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
@@ -279,7 +279,6 @@
 			isa = PBXGroup;
 			children = (
 				A48B66D47D1175BAFF9E488973F6BE13 /* CresenityIOS */,
-				9809801222AE647300EA2E66 /* Helper.swift */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -289,6 +288,7 @@
 			children = (
 				1FB844A9C00967C8B2462D0AE67A0A60 /* Pod */,
 				D3C399BA1E5B177B54C22AC209EE3877 /* Support Files */,
+				9809801622AE689400EA2E66 /* Helper.swift */,
 			);
 			name = CresenityIOS;
 			path = ../..;
@@ -544,7 +544,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C21625F0FD638FC3E2876C476ECE192A /* CresenityIOS-dummy.m in Sources */,
-				9809801322AE647300EA2E66 /* Helper.swift in Sources */,
+				9809801722AE689400EA2E66 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

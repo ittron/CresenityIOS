@@ -8,6 +8,6 @@
 import Foundation
 class Helper {
     init() {
-        print("print Helper")
+        print("helper")
     }
 }
